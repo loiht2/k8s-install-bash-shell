@@ -8,13 +8,13 @@ No deep docs here—your scripts do the real work. This README just tells you wh
 ## What’s in this repo
 - `k8s-install-master.sh` — sets up the master (control plane)
 - `k8s-install-worker.sh` — sets up worker nodes
-- `k8s-uninstall.sh` — removes the cluster when you’re done
+- `k8s-uninstall.sh` — removes the cluster if needed
 
 ---
 
 ## How to Run
 
-### On master node(s)
+### On a master node
 ```bash
 chmod +x k8s-install-master.sh
 ./k8s-install-master.sh
@@ -32,7 +32,7 @@ chmod +x k8s-install-worker.sh
 
 ## What success looks like
 
-When the master finishes, you’ll see a line like this on the screen.  
+When the master node finishes, you’ll see a line like this on the screen.  
 Copy it and run it on each worker node:
 
 ```bash
