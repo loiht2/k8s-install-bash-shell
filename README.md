@@ -46,7 +46,7 @@ Keep this join command handy—you’ll use it for every worker you add.
 
 ## Uninstall (If needed)
 
-On a master node:
+On a master node and worker nodes:
 ```bash
 chmod +x k8s-uninstall.sh
 sudo ./k8s-uninstall.sh
